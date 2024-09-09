@@ -65,7 +65,7 @@ Input Data: Provide details such as gender, height, bone density, vision, hearin
 Output: The model returns a numerical age prediction.
 
 EXAMPLE:
-# Create a DataFrame with the input data
+`#Create a DataFrame with the input data
 input_data = pd.DataFrame({
     'Gender': ['Male'],
     'Height': [170],
@@ -75,11 +75,11 @@ input_data = pd.DataFrame({
     'Cognitive_Function': [0.1],
     'Stress': [0.3],
     'Physical_Activity': ['Moderate']
-})
+})`
 
-# Predict age using the fitted model
-predicted_age = results.predict(input_data)
-print('Predicted Age:', predicted_age.values)
+#Predict age using the fitted model
+`predicted_age = results.predict(input_data)
+print('Predicted Age:', predicted_age.values)`
 
 📈 Results
 The model achieved an R-squared of 92.7%, indicating a high level of accuracy in predicting age based on health and lifestyle factors.
